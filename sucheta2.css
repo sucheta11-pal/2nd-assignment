@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  font-family: 'Baloo 2', cursive;
+}
+.topic {
+  text-align: center;
+  margin: 20px;
+}
+
+p {
+  padding: 10px;
+  position: relative;
+  margin: 32px 11px;
+}
+
+.Box {
+  text-align: justify;
+  margin: 30px;
+  position: relative;
+  border: 3px solid black;
+  background-color: rgb(158, 151, 151);
+}
+
+span {
+  font-size: 20px;
+  width: 150px;
+  border: 3px solid black;
+  text-align: center;
+  float: right;
+  top:-3px;
+  right: -3px;
+  position: absolute;
+}
+#box1 {
+  background-color: rgb(238 95 98);
+}
+#box2 {
+  background-color: rgb(195 29 70);
+  color: white;
+}
+#box3 {
+  background-color: rgb(246 202 108);
+}
+@media (min-width: 992px) {
+  .c1,.c2,.c3 {
+    float: left;
+    width: 33.33%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .same {
+    width: 50 vw;
+    margin: 30px;
+  }
+  .container {
+   
+    display: flex;
+    
+  }
+
+  .c3 {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .c1,
+  .c2,
+  .c3 {
+    float: left;
+    width: 100%;
+  }
+}
